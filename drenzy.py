@@ -37,7 +37,7 @@ def run():
 			print("[!] ERROR SERVER TIME OUT")
 
 def run2():
-	data = random._urandom(16)
+	data = random._urandom(18)
 	i = random.choice(("[*]","[!]","[#]"))
 	while True:
 		try:
