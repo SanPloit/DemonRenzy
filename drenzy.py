@@ -17,7 +17,9 @@ print       (" - - > DISCORD : XDemonRenzy#8851<- - ")
 print       (" - - > DM ME IF YOU NEED HELP < - - ")
 print       (" - - > JOIN RZ TEAM TO LEARN AGAIN < - - ")
 print       (" - - > https://discord.gg/FBwqssW4gy < - - ")
-    
+
+os.system("clear")
+
 ip = str(input("  HOST/IP:"))
 port = int(input(" Port:"))
 choice = str(input(" Want Ddos?(y/n):"))
