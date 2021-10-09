@@ -5,21 +5,22 @@ import threading
 import os
 
 os.system("clear")
-os.system("color A0")
-print ("########  ######## ##     ##  #######  ##    ## ") 
-print ("##     ## ##       ###   ### ##     ## ###   ## ")
-print ("##     ## ##       #### #### ##     ## ####  ## ")
-print ("##     ## ######   ## ### ## ##     ## ## ## ## ") 
-print ("##     ## ##       ##     ## ##     ## ##  #### ")
-print ("##     ## ##       ##     ## ##     ## ##   ### ")  
-print ("########  ######## ##     ##  #######  ##    ## ")  
+print("""\033[91m
+########  ######## ##     ##  #######  ##    ##
+##     ## ##       ###   ### ##     ## ###   ## 
+##     ## ##       #### #### ##     ## ####  ##
+##     ## ######   ## ### ## ##     ## ## ## ##
+##     ## ##       ##     ## ##     ## ##  #### 
+##     ## ##       ##     ## ##     ## ##   ### 
+########  ######## ##     ##  #######  ##    ##
+""")
 
-print       (" - - > TOOLS CREATED BY DEMON RENZY < - - ")
-print       (" - - > INSTAGRAM : sndigans_ < - - ")
+print       (" - - > TOOLS INFORMATION < - - ")
+print       (" - - > CREATOR : DemonRenzy < - - ")
 print       (" - - > DISCORD : XDemonRenzy#8851<- - ")                                   
 print       (" - - > DM ME IF YOU NEED HELP < - - ")
-print       (" - - > JOIN RZ TEAM TO LEARN AGAIN < - - ")
-print       (" - - > https://discord.gg/FBwqssW4gy < - - ")
+print       (" - - > DISCORD SERVER < - - ")
+print       (" - - > https://discord.com/invite/rbBEpzUUvp < - - ")
 
 
 ip = str(input("  HOST/IP:"))
