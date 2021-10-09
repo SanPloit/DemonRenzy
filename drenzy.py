@@ -5,6 +5,7 @@ import threading
 import os
 
 os.system("clear")
+os.system("color A0")
 print ("########  ######## ##     ##  #######  ##    ## ") 
 print ("##     ## ##       ###   ### ##     ## ###   ## ")
 print ("##     ## ##       #### #### ##     ## ####  ## ")
