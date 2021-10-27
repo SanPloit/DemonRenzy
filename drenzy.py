@@ -20,7 +20,7 @@ print       (" - - > CREATOR : DemonRenzy < - - ")
 print       (" - - > DISCORD : XDemonRenzy#8851<- - ")                                   
 print       (" - - > DM ME IF YOU NEED HELP < - - ")
 print       (" - - > DISCORD SERVER < - - ")
-print       (" - - > https://discord.com/invite/rbBEpzUUvp < - - ")
+print       (" - - > https://dsc.gg/rzteam < - - ")
 
 
 ip = str(input("  HOST/IP:"))
