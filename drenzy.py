@@ -30,7 +30,7 @@ times = int(input(" Packets :"))
 threads = int(input(" Threads :"))
 os.system("clear")
 def run():
-	data = random._urandom(1800)
+	data = random._urandom(99999)
 	i = random.choice(("[+]","[-]"))
 	while True:
 		try:
