@@ -1,1 +1,1 @@
-# DemonRenzy
+Renzy Basic Code Ddos Samp
